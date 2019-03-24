@@ -10,7 +10,7 @@ function craftMethodURL(methodType, methodName, methodParams, apiVersion) {
     if (useProxy == "enabled") {
         return proxyURL + '?url='+encodeURI('https://api.vk.com/method/'+methodType+'.'+methodName+'?access_token='+token+"&"+methodParams+"&v="+apiVersion);
     } else {
-        return 'https://vk-api-proxy.xtrafrancyz.net/method/'+methodType+'.'+methodName+'?access_token='+token+"&"+methodParams+"&v="+apiVersion;
+        return 'https://api.vk.com/method/'+methodType+'.'+methodName+'?access_token='+token+"&"+methodParams+"&v="+apiVersion;
     }
 }
 
