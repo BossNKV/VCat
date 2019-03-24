@@ -104,7 +104,7 @@ $(".saveToken2").click(function() {
     }
     var url = "https://api.vk.com/method/users.get?&access_token="+token+"&v=5.73";
     if (!useProxy) {
-        url = "proxy.php?url=" + encodeURIComponent(url).replace(/'/g, "%27").replace(/"/g, "%22");
+        url = encodeURIComponent(url).replace(/'/g, "%27").replace(/"/g, "%22");
     } else {
         url = proxyURL+"?url=" + encodeURIComponent(url).replace(/'/g, "%27").replace(/"/g, "%22");
     }
