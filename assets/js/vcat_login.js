@@ -1,4 +1,4 @@
-var useProxy = true;
+var useProxy = false;
 var proxyURL = "https://utkacraft.ru/vcat/proxy.php";
 var request = getItem("VCat.MultiAccount.AuthRequest");
 
