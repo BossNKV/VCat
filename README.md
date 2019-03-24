@@ -2,7 +2,7 @@
 
 **WARNING:** _This application is in beta stage! Expect bugs and crashes!_
 
-*Live preview available here:* https://hardser.github.io/VCat/ *(may crash, don't forget to enable Proxy in Config!)*
+*Live preview available here:* https://bossnkv.github.io/VCat/. *(may crash, don't forget to enable Proxy in Config!)*
 
 *libvkmusic (VK Music Helper) and libvcatmsg (VCat Notification System Helper) are not public. Please keep this in mind.*
 
